@@ -75,8 +75,6 @@ ggplot()+
   geom_sf(data = heiankyo_excavation_area)+
   theme_map()
 
-![image](https://user-images.githubusercontent.com/54834814/169643848-d52d0b11-4d3e-4e8a-a87c-731552d78bbb.png)
-
 
 #調査年代ごとに分ける
 #属性の西暦年を数値へ変換
@@ -89,6 +87,10 @@ heiankyo_excavation_area_1970s <- filter(heiankyo_excavation_area, between(heian
 heiankyo_excavation_area_1980s <- filter(heiankyo_excavation_area, between(heiankyo_excavation_area$year,1980,1989))
 heiankyo_excavation_area_1990s <- filter(heiankyo_excavation_area, between(heiankyo_excavation_area$year,1990,1999))
 ```
+
+![image](https://user-images.githubusercontent.com/54834814/169643973-6f583005-19c4-4bbc-9324-5ee33e775d7e.png)
+平安京跡内だけのデータを再表示したもの
+
 
 ##年代ごとに分けた発掘調査地点の密度分析
 #1970s
@@ -122,10 +124,10 @@ a1970s.dens_data %>%
   theme(
     axis.title = element_blank()
   )
-![image](https://user-images.githubusercontent.com/54834814/169643862-ca2f8d99-7cba-4a5f-b28c-0786e757bf93.png)
 
 ```
 
+![image](https://user-images.githubusercontent.com/54834814/169643862-ca2f8d99-7cba-4a5f-b28c-0786e757bf93.png)
 
 #1980s
 ```{r}
@@ -159,10 +161,9 @@ a1980s.dens_data %>%
     axis.title = element_blank()
   )
   
-  ![image](https://user-images.githubusercontent.com/54834814/169643876-06a6911c-a506-4ed7-8f16-ff691f42512a.png)
-
 ```
-
+  ![image](https://user-images.githubusercontent.com/54834814/169643876-06a6911c-a506-4ed7-8f16-ff691f42512a.png)
+  
 #1990s
 ```{r}
 ggplot()+
@@ -194,6 +195,7 @@ a1990s.dens_data %>%
   theme(
     axis.title = element_blank()
   )
-  ![image](https://user-images.githubusercontent.com/54834814/169643891-445b77b2-6939-45d5-83ee-b5754c2fc501.png)
+
 
 ```
+  ![image](https://user-images.githubusercontent.com/54834814/169643891-445b77b2-6939-45d5-83ee-b5754c2fc501.png)
