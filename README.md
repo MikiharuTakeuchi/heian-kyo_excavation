@@ -8,5 +8,6 @@
 平安京跡での発掘調査を集成した平安京跡データーベースを用いて発掘調査地点を時空間的に分析することでどのようなことが見えてくるのかを示し、当資料や発掘調査の情報の活用可能性を指摘することを目指している。
 
 ※1平安京跡データーベース（https://heiankyoexcavationdb-rstgis.hub.arcgis.com/）
+
 ※2武内樹治・今村聡・矢野桂司 2021「「平安京跡データベース」の利活用に向けた課題とその検証」『アート・リサーチ』21, pp.71-81
 https://ritsumei.repo.nii.ac.jp/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=14498&item_no=1&page_id=13&block_id=21
